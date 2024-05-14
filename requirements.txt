@@ -1,0 +1,17 @@
+colorama==0.4.6
+contourpy==1.2.0
+cycler==0.12.1
+exceptiongroup==1.2.0
+fonttools==4.50.0
+iniconfig==2.0.0
+kiwisolver==1.4.5
+matplotlib==3.8.3
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+pytz==2024.1
+seaborn==0.13.2
+setuptools==69.0.3
+six==1.16.0
+tomli==2.0.1
+tzdata==2024.1
+wheel==0.42.0
