@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Antonio Gómez Ruiz</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="Proyecto_3.css">
+    <script src="Proyecto_3.js"></script>
+</head>
+
+<!-- HTML de pruebas usado para prácticar -->
+
+<body>
+    <div id="tarjetas" class="main">
+        <div class="card">
+            <h3 class="card-title">George Bluth</h3>
+            <!-- Fuente de imágenes aleatorias de ejemplo:  "https://source.unsplash.com/random/200x200" -->
+            <!-- Fuente de imágenes aleatorias de ejemplo 2:  "https://regres.in/img/faces/1-image.jpg" -->
+            <img class="card-image" src="https://reqres.in/img/faces/1-image.jpg"
+                 style="width: 100%;">
+            <div class="bodyCard">
+                
+                <p class="card-description">Texto de la imagen, hola esto es un texto de prueba para ver como puede servir la funcionalidad 
+                    flex de un archivo CSS y queremos que se exceda por mucho
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Janet Weaver</h3>
+            <img class="card-image" src="https://reqres.in/img/faces/2-image.jpg"
+                 style="width: 100%;">
+            <div class="bodyCard">
+                <p>Texto de la imagen, hola esto es un texto de prueba para ver como puede servir la funcionalidad 
+                    flex de un archivo CSS y queremos que se exceda por mucho</p>
+            </div>   
+        </div>
+        <div class="card">
+            <h3 class="card-title">Emma Wong</h3>
+            <img class="card-image" src="https://reqres.in/img/faces/3-image.jpg"
+                 style="width: 100%;">
+            <div class="bodyCard">
+                <p>Texto de la imagen, hola esto es un texto de prueba para ver como puede servir la funcionalidad 
+                    flex de un archivo CSS y queremos que se exceda por mucho</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Eve Holt</h3>
+            <img class="card-image" src="https://reqres.in/img/faces/4-image.jpg"
+                 style="width: 100%;">
+            <div class="bodyCard">
+                <p>Texto de la imagen, hola esto es un texto de prueba para ver como puede servir la funcionalidad 
+                    flex de un archivo CSS y queremos que se exceda por mucho</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <p>Ingrese el número de página (1 o 2 únicamente):</p>
+    <input type="text" id="txtPag" placeholder="Ingresar" style="width: 100px;" />
+    <br /><br />
+    <button id="btn1">Obtener informacion</button>
+</body>
+</html>

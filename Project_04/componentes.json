@@ -1,0 +1,92 @@
+{
+    "CPU": [
+        {
+            "id": 1,
+            "titulo": "CPU Intel Xeon",
+            "descripcion": "2 núcleos a 3.2 GHz",
+            "imagen": "img/cpu1.png"
+        },
+        {
+            "id": 2,
+            "titulo": "CPU AMD Ryzen 5",
+            "descripcion": "6 Núcleos y 12 hilos 3.8 GHz",
+            "imagen": "img/cpu2.png"
+        },
+        {
+            "id": 3,
+            "titulo": "CPU Intel Xeon",
+            "descripcion": "1 Núcleo 2 hilos a 2.8 GHz",
+            "imagen": "img/cpu3.png"
+        },
+        {
+            "id": 4,
+            "titulo": "CPU Intel Core i9",
+            "descripcion": "4 Núcleos a 3.6 GHz",
+            "imagen": "img/cpu4.png"
+        }
+    ],
+    "Gabinete": [
+        {
+            "id": 1,
+            "titulo": "Kit Gabinete",
+            "descripcion": "Gabinete + Teclado + Mouse",
+            "imagen": "img/g1.png"
+        },
+        {
+            "id": 2,
+            "titulo": "Gabinete Corsair",
+            "descripcion": "Corsair 4000D de aleación",
+            "imagen": "img/g2.png"
+        },
+        {
+            "id": 3,
+            "titulo": "Gabinete AlienWare",
+            "descripcion": "Gabinete con vidrio templado",
+            "imagen": "img/g3.png"
+        },
+        {
+            "id": 4,
+            "titulo": "Gabinete Yenan",
+            "descripcion": "Gabinete Azul con Negro",
+            "imagen": "img/g4.png"
+        }
+    ],
+    "Tarjetas_graficas": [
+        {
+            "id": 1,
+            "titulo": "GEForce GTX 1650",
+            "descripcion": "Tarjeta gráfica Nvidia 4GB",
+            "imagen": "img/gc1.png"
+        },
+        {
+            "id": 2,
+            "titulo": "GEForce RTX 3060",
+            "descripcion": "Tarjeta gráfica Nvidia 12GB",
+            "imagen": "img/gc2.png"
+        },
+        {
+            "id": 3,
+            "titulo": "AMD Radeon",
+            "descripcion": "Tarjeta gráfica AMD 8GB",
+            "imagen": "img/gc3.png"
+        },
+        {
+            "id": 4,
+            "titulo": "GEForce RTX 3060",
+            "descripcion": "Tarjeta gráfica Nvidia 3 ventiladores",
+            "imagen": "img/gc4.png"
+        },
+        {
+            "id": 5,
+            "titulo": "GEForce GTX 1050 Ti",
+            "descripcion": "Tarjeta gráfica Nvidia 4GB",
+            "imagen": "img/gc5.png"
+        },
+        {
+            "id": 6,
+            "titulo": "GEForce GTX 1660 Ti",
+            "descripcion": "Tarjeta gráfica Nvidia 6GB",
+            "imagen": "img/gc6.png"
+        }
+    ]
+}
